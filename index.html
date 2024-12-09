@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header started -->
+    <header class="p-[20px]">
+      <div class="container flex items-center justify-between">
+        <img src="./imgs/header_logo.png" alt="" />
+        <div
+          class="catalog flex items-center gap-[10px] bg-[#f56e1e] rounded-[12px] p-[13px]"
+        >
+          <img src="./svgs/catalog.svg" alt="" />
+          <p class="font-[600] text-[18px] text-[#fcfcfc]">Каталог</p>
+        </div>
+        <div
+          class="search flex items-center justify-between border border-[#a0a3bc] rounded-[12px] p-[12px] bg-[#fff]"
+        >
+          <input
+            type="search"
+            placeholder="Я ищу"
+            class="outline-none text-[400] text-[16px] text-[#a0a3bc]"
+          />
+          <img src="./svgs/seacrh.svg" alt="" />
+        </div>
+
+        <div class="header_icons flex items-center gap-[30px]">
+          <!-- 1 -->
+          <div class="first flex flex-col items-center gap-[5px]">
+            <img src="./svgs/korzinka.svg" alt="" />
+            <p class="font-[400] text-[12px] text-[#6e7191]">Корзина</p>
+          </div>
+
+          <!-- 2 -->
+          <div class="first flex flex-col items-center gap-[5px]">
+            <img src="./svgs/tag.svg" alt="" />
+            <p class="font-[400] text-[12px] text-[#6e7191]">Избранное</p>
+          </div>
+          <!-- 3 -->
+          <div class="first flex flex-col items-center gap-[5px]">
+            <img src="./svgs/person.svg" alt="" />
+            <p class="font-[400] text-[12px] text-[#6e7191]">Профиль</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header ended -->
+
+    <!-- header_bottom part started -->
+    <div class="header_bottom mt-[40px]">
+      <div class="container flex items-center justify-between">
+        <div class="dinamik">
+          <p class="font-[700] text-[9px] text-[#a0a3bd]">
+            Динамично. Надежно. Доступно.
+          </p>
+        </div>
+        <div class="lang flex items-center gap-[5px]">
+          <img src="./imgs/russan.png" alt="" />
+          <p class="font-[700] text-[14px] text-[#6e7191]">RU</p>
+          <div class="header_links flex items-center gap-[30px]">
+            <p>
+              <a class="font-[700] text-[14px] text-[#6e7191]" href="#"
+                >О компании</a
+              >
+            </p>
+            <p>
+              <a class="font-[700] text-[14px] text-[#6e7191]" href="#"
+                >Клиентам</a
+              >
+            </p>
+            <p>
+              <a class="font-[700] text-[14px] text-[#6e7191]" href="#"
+                >Сотрудничество</a
+              >
+            </p>
+            <p>
+              <a class="font-[700] text-[14px] text-[#6e7191]" href="#"
+                >Контакты</a
+              >
+            </p>
+          </div>
+
+          <div class="calls flex items-center gap-[25px]">
+            <img src="./svgs/telegram.svg" alt="" />
+            <img src="./svgs/next.svg" alt="" />
+            <p>
+              <a
+                class="font-[600] text-[16px] text-[#f56e1e]"
+                href="tel:8 (800) 455-45-11"
+                >8 (800) 455-45-11</a
+              >
+            </p>
+            <div
+              class="call flex items-center gap-[5px] bg-[#f56e1e] rounded-[8px] py-[0px] px-[12px]"
+            >
+              <img src="./svgs/call.svg" alt="" />
+              <p class="font-[500] text-[14px] text-[#fff]">Заказть звонок</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--header_bottom  ended  -->
+
+    <!-- showcase started -->
+    <div class="showcase mt-[50px]">
+      <div class="container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./imgs/showcase_swiper.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/showcase_swiper.png" alt="" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./imgs/showcase_swiper.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- showcase ended -->
+
+    <!-- section:popular started -->
+    <section class="popular">
+      <div class="container">
+        <h1 class="font-[700] text-[32px] text-[#000] text-opacity-[0.2]">
+          Популярные категории
+        </h1>
+        <!-- cards -->
+        <div class="cards grid grid-cols-6 gap-[40px]">
+          <!-- card1 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p1.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+          <!-- card2 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p2.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+          <!-- card3 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p3.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+          <!-- card4 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p4.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+          <!-- card5 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p5.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+          <!-- card6 -->
+          <div
+            class="card1 rounded-[20px] p-[24px] bg-[#f1f1f1] flex flex-col gap-[15px] border border-[#de5703]"
+          >
+            <img src="./svgs/p6.svg" alt="" />
+            <p class="font-[700] text-[18px] text-[#4e4b66]">
+              Стартеры и комплектующие
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:popular ended -->
+
+    <!-- section:news started -->
+    <section class="news mt-[50px]">
+      <div class="container">
+        <div class="top flex items-center justify-between">
+          <h1 class="font-[700] text-[32px] text-[#4e4b66]">Новости</h1>
+          <button class="btn1">Посмотреть все</button>
+        </div>
+        <!-- news cards -->
+        <div class="news_cards grid grid-cols-3 gap-[40px]">
+          <!-- new1 -->
+          <div class="new1">
+            <img src="./imgs/new1.png" alt="" />
+            <h1 class="font-[700] text-[28px] text-[#4e4b66]">
+              Заголовок в две строчки или в три строчки
+            </h1>
+          </div>
+          <!-- new1 -->
+          <div class="new1">
+            <img src="./imgs/new1.png" alt="" />
+            <h1 class="font-[700] text-[28px] text-[#4e4b66]">
+              Заголовок в две строчки или в три строчки
+            </h1>
+          </div>
+          <!-- new1 -->
+          <div class="new1">
+            <img src="./imgs/new1.png" alt="" />
+            <h1 class="font-[700] text-[28px] text-[#4e4b66]">
+              Заголовок в две строчки или в три строчки
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:news eneded -->
+
+    <!-- section:just_img started -->
+    <section class="just_img mt-[60px]">
+      <div class="container">
+        <img src="./imgs/section.png" alt="" />
+      </div>
+    </section>
+    <!-- section:just_img ended -->
+
+    <!-- section:technics started -->
+    <section class="technincs mt-[60px]">
+      <div class="container">
+        <h1 class="font-[700] text-[32px] text-black text-opacity-20">
+          Автозапчасти к технике
+        </h1>
+        <!-- tech cards -->
+        <div class="tech_cards grid grid-cols-7 gap-[30px] mt-[40px]">
+          <!-- card1 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech1.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card2 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech2.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card3 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech3.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card4 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech4.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card5 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech2.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card3 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech3.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+          <!-- card4 -->
+          <div class="card_tech1">
+            <div class="imgs bg-[#f1f1f1] rounded-[20px]">
+              <img src="./imgs/tech4.png" alt="" />
+            </div>
+            <p class="font-[700] text-[18px] text-[#4e4b66] text-center">
+              Грузовые
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:technics ended -->
+
+    <!-- section:hit products started -->
+    <section class="hit_products mt-[60px]">
+      <div class="container">
+        <h1 class="font-[700] text-[32px] text-black text-opacity-20">
+          Хиты продаж
+        </h1>
+        <div class="hit_products_cards grid grid-cols-6 gap-[30px] mt-[50px]">
+          <!-- pro1  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[5px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+          <!-- pro2  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[10px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+          <!-- pro3  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[10px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+          <!-- pro4  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[10px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+          <!-- pro5  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[10px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+          <!-- pro6  -->
+          <div class="pro1 flex flex-col gap-[5px]">
+            <img src="./imgs/pro1.png" alt="" />
+            <div class="price flex items-center gap-[10px]">
+              <h3 class="font-[700] text-[26px] text-[#14142b]">999999 ₽</h3>
+              <p class="font-[500] text-[16px] text-[#a0a3bd]">999999 ₽</p>
+            </div>
+            <p class="font-[400] text-[14px] text-[#6e7191]">
+              Фара светодиодная дополнительная круглая, направленный свет, 14
+              диодов, 42W, (115х42х142)
+            </p>
+            <p class="font-[400] text-[14px] text-[#4e4b66]">Кат. номер:</p>
+            <p class="font-[700] text-[14px] text-[#4e4b66]">
+              AE42R-14LED-42HC
+            </p>
+            <button
+              class="flex items-center gap-[5px] bg-[#f56e1e] rounded-[12px] p-[10px] transition duration-[0.8s] hover:scale-[0.8]"
+            >
+              <img src="./svgs/white_cart.svg" alt="" />
+              <p class="font-[600] text-[16px] text-[#fcfcfc]">В корзину</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:hit_profucts ended -->
+
+    <!-- section:just_img started -->
+    <section class="just_img mt-[60px]">
+      <div class="container">
+        <img src="./imgs/section.png" alt="" />
+      </div>
+    </section>
+    <!-- section:just_img ended -->
+
+    <!-- section:last cards started -->
+    <section class="last_cards mt-[60px]">
+      <div class="container grid grid-cols-3 gap-[30px]">
+        <!-- card1 -->
+        <div
+          class="dinamik1 flex items-center gap-[15px] border border-[#6e7191] rounded-[20px] p-[36px]"
+        >
+          <img src="./svgs/lst1.svg" alt="" />
+          <div class="headingss">
+            <h1 class="font-[700] text-[28px] text-[#f56e1e]">Динамично</h1>
+            <p class="font-[400] text-[16px] text-[#6e7191]">
+              Мы предлагаем более 15000 наименований запчастей на все виды
+              автотранспортных средств, тракторную и сельхозтехнику,
+              спецтехнику.
+            </p>
+          </div>
+        </div>
+        <!-- card2 -->
+        <div
+          class="dinamik1 flex items-center gap-[15px] border border-[#6e7191] rounded-[20px] p-[36px]"
+        >
+          <img src="./svgs/lst2.svg" alt="" />
+          <div class="headingss">
+            <h1 class="font-[700] text-[28px] text-[#f56e1e]">Надежно</h1>
+            <p class="font-[400] text-[16px] text-[#6e7191]">
+              На весь ассортимент мы предоставляем гарантию до 3 лет! Продукция
+              «АвтоЭлектрики» выпускается на современном заводском оборудовании.
+            </p>
+          </div>
+        </div>
+        <!-- card3 -->
+        <div
+          class="dinamik1 flex items-center gap-[15px] border border-[#6e7191] rounded-[20px] p-[36px]"
+        >
+          <img src="./svgs/lst3.svg" alt="" />
+          <div class="headingss">
+            <h1 class="font-[700] text-[28px] text-[#f56e1e]">Надежно</h1>
+            <p class="font-[400] text-[16px] text-[#6e7191]">
+              На весь ассортимент мы предоставляем гарантию до 3 лет! Продукция
+              «АвтоЭлектрики» выпускается на современном заводском оборудовании.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:last cards ended -->
+
+    <!-- section:texts started -->
+    <section class="texts mt-[60px]">
+      <div class="container">
+        <h1 class="font-[700] text-[32px] text-[#4e4b66]">
+          Оптовая продажа автотракторных запчастей
+        </h1>
+        <p class="font-[100] text-[16px] text-[#6e7191] mt-[40px]">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore,
+          explicabo voluptate dolor totam, cupiditate, deserunt quisquam
+          voluptatem laborum tempore tempora deleniti consectetur repellat.
+          Accusantium, velit maxime reiciendis soluta illo vitae excepturi culpa
+          incidunt, labore, vel obcaecati suscipit. Perspiciatis amet sequi at
+          ex alias accusamus pariatur quasi aliquid, ut aspernatur harum
+          voluptas adipisci hic asperiores consequuntur qui rerum quae
+          architecto corporis vitae atque explicabo! Delectus explicabo, non
+          recusandae nemo voluptatum officiis incidunt inventore cum tempore.
+          Pariatur suscipit dolorem delectus aut non odio incidunt aliquid
+          laborum odit sit maiores sapiente asperiores illum eveniet numquam
+          accusantium repellendus, placeat vitae distinctio corrupti. Et,
+          placeat.
+        </p>
+      </div>
+    </section>
+    <!-- section: texts ended -->
+
+    <!-- footers started -->
+    <div class="footer mt-[60px] bg-[#f1f1f1] p-[20px]">
+      <div class="container grid grid-cols-5 gap-[40px]">
+        <!-- footer_links1 -->
+        <div class="footer_links1">
+          <img src="./svgs/footer)icon.svg" alt="" />
+          <p class="font-[400] text-[12px] text-[#6e7191]">
+            Оптовая продажа запчастей на все виды автотранспортных средств
+          </p>
+          <p class="font-[400] text-[12px] text-[#6e7191]">
+            ИП Хомченко Максим Альбертович ОГРНИП 000000000
+          </p>
+          <p class="font-[400] text-[12px] text-[#6e7191]">
+            1993 - 2022 © АвтоЭлектрика
+          </p>
+          <p class="font-[400] text-[12px] text-[#6e7191]">
+            Политика конфиденциальности
+          </p>
+        </div>
+        <!-- ft_links2 -->
+        <div class="ft_links2 flex flex-col gap-[15px]">
+          <h5 class="font-[600] text-[16px] text-[#6e7191]">О компании</h5>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Документы и реквизиты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Бренды</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Сотрудники</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Контакты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Карьера</a
+            >
+          </p>
+        </div>
+        <!-- ft_links3 -->
+        <div class="ft_links2 flex flex-col gap-[15px]">
+          <h5 class="font-[600] text-[16px] text-[#6e7191]">Клиентам</h5>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Документы и реквизиты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Бренды</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Сотрудники</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Контакты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Карьера</a
+            >
+          </p>
+        </div>
+        <!-- ft_links4 -->
+        <div class="ft_links2 flex flex-col gap-[15px]">
+          <h5 class="font-[600] text-[16px] text-[#6e7191]">Сотрудничество</h5>
+        </div>
+        <!-- ft_links5 -->
+        <div class="ft_links2 flex flex-col gap-[15px]">
+          <h5 class="font-[600] text-[16px] text-[#6e7191]">Клиентам</h5>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Документы и реквизиты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Бренды</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Сотрудники</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Контакты</a
+            >
+          </p>
+          <p>
+            <a
+              class="font-[400] text-[14px] text-[#6e7191] hover:text-[#a0a3bc]"
+              href="#"
+              >Карьера</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- footer ended -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        loop: true,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+Javascript has two main catagories of data types.
+
+1)Primitive data types:
+Primitive data types are basic types that represnet single values . They are immutable they can't be changed once they are created. and are sorted  directly in the variable's memory location.
+
+Primitive data types:
+1. String
+A sequence of characters enclosed ine aither single quotes(') or double quotes (") or backticks(`)
+2.Number-->represent numeric values ,whether integer or float-point
+3.BigInt-->a newer data type for representing large integers beyond the Number range(2 53)-1
+4.Boolen-->boolen represents one of two values true or false
+5.undefined-->variable that has been declared but not assigned a value
+6.Symbol
+7.null-->represents an intentional absence of any value . It's a falsy value ,often used to signify that a variable has no value.
+
+
+2)Non-Primitive data types or reference types 
+this type of data types are more complex types . They can hold multiple values and are mutabel can be changed .  When we assign a reference type variable to another variable the second variable points to the same memory location as the first.
+
+List of non-primitive data types:
+1)Objects.
+2)Array.
+3)Funciton.
+
+
+Differences between var,let,const,
+
+1)var - old way of declaring variables in js 
+function-scoped.
+hoisted 
+can be re-declared.
+2)let - modern way of declaring variables.
+block-scoped
+hoisted
+can be updated  but not re-declared
+3)const -constant variable
+block-scoped
+hoisted
+cannot be reassigned
+must be initialized
+
+Funtions in js:
+
+1)Function declaration
+a funttion declaraton is the most common way to define a function in js 
+
+funciton Myfunciton(parametres){
+
+}
+2)Function expression is when you assign a funciton to a variable , Function created in this way are anonymous they don't have a name and   are  typically used as arguments to other  functions
+const functonnamec= (parametres)=>{
+
+};
